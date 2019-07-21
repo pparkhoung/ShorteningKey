@@ -45,4 +45,4 @@ github에 있는 프로젝트를 내려받을 로컬 포덜을 지정 후 Workin
 - 실행방법
 STS 내 서버 tomcat 추가 후 ShorteningKey add 
 tomcat 서버 Modules의 Path 경로 최초 세팅 시 /main 을 Edit해 Path 경로 모두 삭제
-서버 구동 후 http://localhost:8080/insertURL.do 접근 시 url 입력 화면 호출(포트는 필요 시 로컬 환경에 세팅된 포트로 변경)
+서버 구동 후 http://localhost:8080/insertUrl.do 접근 시 url 입력 화면 호출(포트는 필요 시 로컬 환경에 세팅된 포트로 변경)
