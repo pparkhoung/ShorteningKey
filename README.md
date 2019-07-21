@@ -15,14 +15,14 @@ URL 을 입력받아 짧게 줄여주고, Shortening 된 URL 을 입력하면 �
 
 #문제해결전략
 
-화면을 통해 입력받는 OriginaUrl의 입력이력 체크(valueMap 확인)
-입력이력 존재 시 먼저 만들어진 Key 값 리턴
-입력이력 미존재 시 새로운 키 생성 keyMap, valueMap HashMap 변수에 Key/OriginaUrl 값 저장
-Database 미사용 대신 HashMap 사용 keyMap, valueMap HashMap 변수에 Key/OriginaUrl 값 저장
-Key 생성 시 숫자,영문 대소문자 사용사용하기 위해 arrChars 배열에 0~61 숫자 부터 영문자 대소문자 배열에 저장
-URL Shortening Key 는 8 Character 이내로 생성 조건으로 Random.class 이용 0~61까지 랜덤하게 조회 후 조회된 값으로 arrChars 값 추출
-keyMap 체크하영 중복되지 않은 8자리 수 Key 생성 
-생성된 Key 값을 화면에 보여주고 화면에 보여지는 shortUrl 값을 입력 시 원래 OriginaUrl 호출 화면이동
+- 화면을 통해 입력받는 OriginaUrl의 입력이력 체크(valueMap 확인)
+- 입력이력 존재 시 먼저 만들어진 Key 값 리턴
+- 입력이력 미존재 시 새로운 키 생성 keyMap, valueMap HashMap 변수에 Key/OriginaUrl 값 저장
+- Database 미사용 대신 HashMap 사용 keyMap, valueMap HashMap 변수에 Key/OriginaUrl 값 저장
+- Key 생성 시 숫자,영문 대소문자 사용사용하기 위해 arrChars 배열에 0-61 숫자 부터 영문자 대소문자 배열에 저장
+- URL Shortening Key 는 8 Character 이내로 생성 조건으로 Random.class 이용 0-61까지 랜덤하게 조회 후 조회된 값으로 arrChars 값 추출
+- keyMap 체크하영 중복되지 않은 8자리 수 Key 생성 
+- 생성된 Key 값을 화면에 보여주고 화면에 보여지는 shortUrl 값을 입력 시 원래 OriginaUrl 호출 화면이동
 
 
 #프로젝트 빌드 및 실행방법
