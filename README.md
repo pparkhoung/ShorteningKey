@@ -31,7 +31,7 @@ keyMap 체크하영 중복되지 않은 8자리 수 Key 생성
 Tool : spring-tool-suite-3.9.6.RELEASE-e4.9.0-win32
 Java : java 1.8
 프로젝트 : Spring Legacy Project(Spring MVC Project)
-was server : Tomcat 8.0
+was : Tomcat 8.0
 
 - 프로젝트 빌드
 프로젝트 환경구성 호환하는 버전을 사용(프로젝트 환경 구성 참조)
