@@ -41,7 +41,7 @@ was : Tomcat 8.0
 2. STS내 window > Show View > Other > Git > Git Repositores > Clone a Git repository > Clone URI 선택
 Clone URI : https://github.com/pparkhoung/ShorteningKey
 Password : 회신 메일에 입력
-github에 있는 프로젝트를 내려받을 로컬 포덜을 지정 후 Working Tree > ShorteningKey 프로젝트 import projects 클릭하면 해당 STS내 프로젝트 세팅
+github에 있는 프로젝트를 내려받을 로컬 폴더 지정 후 Working Tree > ShorteningKey 프로젝트 import projects 클릭하면 해당 STS내 프로젝트 세팅
 
 - 실행방법
 STS 내 서버 tomcat 추가 후 ShorteningKey add 
