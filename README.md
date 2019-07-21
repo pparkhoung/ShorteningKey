@@ -39,6 +39,7 @@ was : Tomcat 8.0
 프로젝트 import 방법
 1. URL : https://github.com/pparkhoung/ShorteningKey 을 통해 프로젝트 직접 다운로드 후 프로젝트 추가 
 2. STS내 window > Show View > Other > Git > Git Repositores > Clone a Git repository > Clone URI 선택
+Clone URI : https://github.com/pparkhoung/ShorteningKey
 Password : 회신 메일에 입력
 github에 있는 프로젝트를 내려받을 로컬 포덜을 지정 후 Working Tree > ShorteningKey 프로젝트 import projects 클릭하면 해당 STS내 프로젝트 세팅
 
